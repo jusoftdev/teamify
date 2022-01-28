@@ -1,23 +1,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/jusoftdev/searchify">
-    <img src="https://i.imgur.com/uOjmCqS.png" alt="Logo">
+  <a href="https://github.com/jusoftdev/teamify">
+    <img src="https://i.imgur.com/3zZLhbB.png" alt="Logo" >
   </a>
 
-  <h3 align="center">Searchify</h3>
+  <h3 align="center">Teamify</h3>
 
   <p align="center">
-    Hosting your own Searchengine was never easier
+    Hosting your own Teamchat was never easier
     <br />
-    <a href="https://github.com/jusoftdev/searchify"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/jusoftdev/teamify"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://searchify.vercel.app">View Demo</a>
+    <a href="https://teamify-jusoft.web.app">View Demo</a>
     ·
-    <a href="https://github.com/jusoftdev/searchify/issues">Report Bug</a>
+    <a href="https://github.com/jusoftdev/teamify/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jusoftdev/searchify/issues">Request Feature</a><br>&nbsp;
+    <a href="https://github.com/jusoftdev/teamify/issues">Request Feature</a><br>&nbsp;
 <a href="https://www.buymeacoffee.com/jusoft" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
  
   </p>
@@ -57,19 +57,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-_Please notice there is a 100 query limit per day for the google api, so don't be confused if there are no results on the public deploy_
 
-
-Host your own Google
-<img src="https://i.imgur.com/vPdHLGG.png"/>
+Host your own Slack
+<img src="https://i.imgur.com/48LM1vT.png"/>
 
 
 ### Built With
 
-* [Next.js](http://nextjs.org/)
-* [TailwindCSS](https://tailwindcss.com)
-* [Heroicons](https://heroicons.com)
-* [Google Search API](https://developers.google.com/custom-search/v1/overview)
+* [React.js](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [Firebase](https://firebase.google.com/)
+* [Material UI](https://mui.com/)
 
 
 <!-- GETTING STARTED -->
@@ -88,32 +86,31 @@ This is an example of how to list things you need to use the software and how to
   ```
 * NextJS
   ```sh
-  yarn add next react react-dom
+  yarn add react-redux
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/jusoftdev/searchify.git
+   git clone https://github.com/jusoftdev/teamify.git
    ```
 2. Install yarn packages
    ```sh
    yarn
    ```
-3. [Get your custom Google API key (requires Google Account)](https://developers.google.com/custom-search/v1/using_rest)
-4. Insert your API key in `keys.js`
-```js
-export const API_KEY = 'Insert here'
-```
-5. Run
-```sh
-yarn dev
-```
-6. Build (optional)
-```sh
-yarn build
-```
+3. [Create Firebase Project](https://console.firebase.google.com/u/0/)
+4. Add Firebase to your Web-App (Create App/Platform) and copy the config
+5. Paste the config in `src/firebase.js`
+  ```js
+  const firebaseConfig = {
+  Enter your Config here
+  };
+  ```
+7. Enable Cloud Firestore
+8. Enable Authentication & Select Google (easiest & simplest way)
+9. Modify `src/firebase.js`
+
 
 
 <!-- USAGE EXAMPLES -->
@@ -138,7 +135,7 @@ Auto Darkmode<br>
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/jusoftdev/searchify/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/jusoftdev/teamify/issues) for a list of proposed features (and known issues).
 
 <!-- todo -->
 ## Todo
@@ -175,7 +172,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 JuSoft - [@jusoftdev](https://twitter.com/jusoftdev) - [Discord Server](http://jsft.be/discord) - support@jusoft.dev
 
-Project Link: [https://github.com/jusoftdev/searchify](https://github.com/jusoftdev/searchify)
+Project Link: [https://github.com/jusoftdev/teamify](https://github.com/jusoftdev/teamify)
 
 
 
