@@ -125,17 +125,14 @@ This is an example of how to list things you need to use the software and how to
 
 Beautiful responsive design
 <img src="https://i.imgur.com/V9W4aNl.png" />
-<img src="https://i.imgur.com/D89ZZe0.png" />
-Showing results in an useful way
-<img src="https://i.imgur.com/kIaOSie.png" />
-Pagination
-<img src="https://i.imgur.com/ghpSFcf.png" />
-Fully responsive Design <br>
-<img src="https://i.imgur.com/ym4XODw.png" />
-<img src="https://cdn.discordapp.com/attachments/828176464041476111/868920497113530479/unknown.png" />
-<br>
-Auto Darkmode<br>
-<img src="https://i.imgur.com/C0k2DlZ.png" />
+<img src="https://i.imgur.com/D89ZZe0.png" /><br>
+Chatting with other Users
+<img src="https://i.imgur.com/HW1ah9u.png" /><br>
+Creating own Channels<br>
+<img src="https://i.imgur.com/mmGTJ4O.png" /><br>
+Simple & Easy Google Login <br>
+<img src="https://i.imgur.com/3jr3rhW.png" />
+
 
 
 
@@ -149,7 +146,7 @@ See the [open issues](https://github.com/jusoftdev/teamify/issues) for a list of
 
 * Threads
 * Apps
-* File Browser
+* File Browser / Media Upload
 * User Groups
 * Mentions & Reactions
 
