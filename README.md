@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jusoftdev/searchify">
-    <img src="https://i.imgur.com/20i2IKX.png" alt="Logo">
+    <img src="https://i.imgur.com/uOjmCqS.png" alt="Logo">
   </a>
 
   <h3 align="center">Searchify</h3>
