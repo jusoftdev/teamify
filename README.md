@@ -102,14 +102,21 @@ This is an example of how to list things you need to use the software and how to
 3. [Create Firebase Project](https://console.firebase.google.com/u/0/)
 4. Add Firebase to your Web-App (Create App/Platform) and copy the config
 5. Paste the config in `src/firebase.js`
-  ```js
-  const firebaseConfig = {
-  Enter your Config here
-  };
-  ```
+    ```js
+    const firebaseConfig = {
+    Enter your Config here
+    };
+   ```
 7. Enable Cloud Firestore
 8. Enable Authentication & Select Google (easiest & simplest way)
-9. Modify `src/firebase.js`
+9. Run the app
+   ```sh
+   yarn start
+   ```
+10. Build the app (optional)
+    ```sh
+    yarn build
+    ```
 
 
 
@@ -117,8 +124,8 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Beautiful responsive design
-<img src="https://i.imgur.com/v1gSm5R.png" />
-<img src="https://i.imgur.com/Kvu3Eam.png" />
+<img src="https://i.imgur.com/V9W4aNl.png" />
+<img src="https://i.imgur.com/D89ZZe0.png" />
 Showing results in an useful way
 <img src="https://i.imgur.com/kIaOSie.png" />
 Pagination
@@ -140,10 +147,11 @@ See the [open issues](https://github.com/jusoftdev/teamify/issues) for a list of
 <!-- todo -->
 ## Todo
 
-* Image Search
-* Video Search
-* News
-* Settings
+* Threads
+* Apps
+* File Browser
+* User Groups
+* Mentions & Reactions
 
 
 
