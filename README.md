@@ -8,7 +8,7 @@
   <h3 align="center">Teamify</h3>
 
   <p align="center">
-    Hosting your own Teamchat was never easier
+    Hosting your own Team Chat was never easier
     <br />
     <a href="https://github.com/jusoftdev/teamify"><strong>Explore the docs »</strong></a>
     <br />
