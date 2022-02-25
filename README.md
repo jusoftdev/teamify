@@ -10,7 +10,7 @@
   <p align="center">
     Hosting your own Team Chat was never easier
     <br />
-    Note: This Repository got archived and is no longer supported
+  <b>Note: This Repository got archived and is no longer supported</b>
     <br />
     <a href="https://github.com/jusoftdev/teamify"><strong>Explore the docs »</strong></a>
     <br />
